@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+        <h2>Display Min and Max</h2>
+        <script>
+                var array = [10,20,4,67,1,89,40];
+                var min = array[0];
+                var max = array[0];
+
+                for(i in array) {
+                        if (array[i] > max) {
+                                max = array[i];
+                        }
+                        if (array[i] < min) {
+                                min = array[i];
+                        }
+                }
+                document.write("Max number is: " + max + "\n\n");
+                document.write("\n\n");
+                document.write("Min number is: " + min);
+
+        </script>
+</body>
+</html>
